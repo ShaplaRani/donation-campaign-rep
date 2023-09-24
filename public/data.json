@@ -6,7 +6,7 @@
       "Category": "Clothing",
       "Category_bg": "#3498db",
       "Card_bg": "#ffffff",
-      "Text_bg": "#333333",
+      "Text_bg": "#79C23F",
       "Button_bg": "#e74c3c",
       "Description": "Provide clean and safe drinking water to communities in need around the world.",
       "Price": 25
@@ -41,7 +41,7 @@
       "Title": "Medical Aid for Vulnerable Communities",
       "Category": "Health",
       "Category_bg": "#2ecc71",
-      "Card_bg": "#ffffff",
+      "Card_bg": "#0052FF",
       "Text_bg": "#333333",
       "Button_bg": "#e67e22",
       "Description": "Provide healthcare services and supplies to underserved populations.",
