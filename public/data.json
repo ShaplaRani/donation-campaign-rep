@@ -1,0 +1,147 @@
+[
+    {
+      "id": 1,
+      "Picture": "https://i.ibb.co/dtz4qzf/Clothing.png",
+      "Title": "Clean Water for All",
+      "Category": "Clothing",
+      "Category_bg": "#3498db",
+      "Card_bg": "#ffffff",
+      "Text_bg": "#333333",
+      "Button_bg": "#e74c3c",
+      "Description": "Provide clean and safe drinking water to communities in need around the world.",
+      "Price": 25
+    },
+    {
+      "id": 2,
+      "Picture": "https://i.ibb.co/2Px0rpG/Education.png",
+      "Title": "Education for Underprivileged Children",
+      "Category": "Education",
+      "Category_bg": "#e67e22",
+      "Card_bg": "#ffffff",
+      "Text_bg": "#333333",
+      "Button_bg": "#2ecc71",
+      "Description": "Support the education of children who lack access to quality schooling.",
+      "Price": 50
+    },
+    {
+      "id": 3,
+      "Picture": "https://i.ibb.co/xXN80rt/Food.png",
+      "Title": "Feeding the Hungry",
+      "Category": "Food",
+      "Category_bg": "#9b59b6",
+      "Card_bg": "#ffffff",
+      "Text_bg": "#333333",
+      "Button_bg": "#f39c12",
+      "Description": "Help provide nutritious meals to those facing hunger and food insecurity.",
+      "Price": 20
+    },
+    {
+      "id": 4,
+      "Picture": "https://i.ibb.co/Prnp5g7/Health.png",
+      "Title": "Medical Aid for Vulnerable Communities",
+      "Category": "Health",
+      "Category_bg": "#2ecc71",
+      "Card_bg": "#ffffff",
+      "Text_bg": "#333333",
+      "Button_bg": "#e67e22",
+      "Description": "Provide healthcare services and supplies to underserved populations.",
+      "Price": 40
+    },
+    {
+      "id": 5,
+      "Picture": "https://i.ibb.co/Prnp5g7/Health.png",
+      "Title": "Supporting Health Education",
+      "Category": "Health",
+      "Category_bg": "#2ecc71",
+      "Card_bg": "#ffffff",
+      "Text_bg": "#333333",
+      "Button_bg": "#e67e22",
+      "Description": "Promote health education and awareness campaigns in communities.",
+      "Price": 30
+    },
+    {
+      "id": 6,
+      "Picture": "https://i.ibb.co/2Px0rpG/Education.png",
+      "Title": "Scholarships for Higher Education",
+      "Category": "Education",
+      "Category_bg": "#e67e22",
+      "Card_bg": "#ffffff",
+      "Text_bg": "#333333",
+      "Button_bg": "#2ecc71",
+      "Description": "Provide scholarships to students pursuing higher education.",
+      "Price": 35
+    },
+    {
+      "id": 7,
+      "Picture": "https://i.ibb.co/dtz4qzf/Clothing.png",
+      "Title": "Clothing Drive for the Needy",
+      "Category": "Clothing",
+      "Category_bg": "#e74c3c",
+      "Card_bg": "#ffffff",
+      "Text_bg": "#333333",
+      "Button_bg": "#3498db",
+      "Description": "Collect and distribute clothing to individuals in need.",
+      "Price": 15
+    },
+    {
+      "id": 8,
+      "Picture": "https://i.ibb.co/xXN80rt/Food.png",
+      "Title": "Nutrition Programs for Children",
+      "Category": "Food",
+      "Category_bg": "#9b59b6",
+      "Card_bg": "#ffffff",
+      "Text_bg": "#333333",
+      "Button_bg": "#f39c12",
+      "Description": "Support programs that ensure children have access to proper nutrition.",
+      "Price": 25
+    },
+    {
+      "id": 9,
+      "Picture": "https://i.ibb.co/Prnp5g7/Health.png",
+      "Title": "Mental Health Awareness",
+      "Category": "Health",
+      "Category_bg": "#2ecc71",
+      "Card_bg": "#ffffff",
+      "Text_bg": "#333333",
+      "Button_bg": "#e67e22",
+      "Description": "Promote awareness and provide resources for mental health support.",
+      "Price": 20
+    },
+    {
+      "id": 10,
+      "Picture": "https://i.ibb.co/2Px0rpG/Education.png",
+      "Title": "Building Schools in Underserved Areas",
+      "Category": "Education",
+      "Category_bg": "#e67e22",
+      "Card_bg": "#ffffff",
+      "Text_bg": "#333333",
+      "Button_bg": "#2ecc71",
+      "Description": "Construct schools in areas with limited access to education facilities.",
+      "Price": 60
+    },
+    {
+      "id": 11,
+      "Picture": "https://i.ibb.co/dtz4qzf/Clothing.png",
+      "Title": "Warm Clothing for Winter",
+      "Category": "Clothing",
+      "Category_bg": "#e74c3c",
+      "Card_bg": "#ffffff",
+      "Text_bg": "#333333",
+      "Button_bg": "#3498db",
+      "Description": "Provide warm clothing to those facing harsh winter conditions.",
+      "Price": 10
+    },
+    {
+      "id": 12,
+      "Picture": "https://i.ibb.co/xXN80rt/Food.png",
+      "Title": "Emergency Food Relief",
+      "Category": "Food",
+      "Category_bg": "#9b59b6",
+      "Card_bg": "#ffffff",
+      "Text_bg": "#333333",
+      "Button_bg": "#f39c12",
+      "Description": "Deliver emergency food supplies to disaster-affected areas.",
+      "Price": 30
+    }
+  ]
+  
