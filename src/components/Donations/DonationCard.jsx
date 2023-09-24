@@ -1,24 +1,31 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const DonationCard = ({ donation }) => {
-    const { Picture, Title, Category, Category_bg, Card_bg, Text_bg } = donation || {};
+    const {id, Picture, Title, Category, Category_bg, Card_bg, Text_bg } = donation || {};
     return (
-        <div className=' '>
-            <div className="rounded-lg">
+       <Link to= {`/donations/${id}`}>
+        <div>
+            <div className="rounded-lg h-full flex flex-col border border-red-400">
                 <div className="">
                     <img className='w-full' src={Picture} alt="" />
                         
                 </div>
-                <div className="p-4 mt-5" style={{ backgroundColor: Card_bg }} >
+                <div className="p-4 flex-grow" style={{ backgroundColor: Card_bg }} >
             <div className='mb-3'>
              <p className='font-medium text-sm'>
-                <span style={{ backgroundColor: Category_bg, color: Text_bg }}>{Category}</span></p>
+                <span className='py-2 px-3  rounded-lg' style={{ backgroundColor: Category_bg, color: Text_bg }}>{Category}</span></p>
             </div>
-                    <p className='font-semibold text-xl' style={{ color:Text_bg  }}>{Title}</p>
+            <div className='flex-grow'>
+                  <p className='font-semibold text-xl ' style={{ color:Text_bg  }}>{Title}</p>
+           </div>
                 </div>
+                  <button className='bg-red-500 w-full'>serch</button>
+               
 
             </div>
         </div>
+        </Link> 
     );
 };
 DonationCard.propTypes = {

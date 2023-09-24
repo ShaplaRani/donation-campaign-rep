@@ -5,7 +5,7 @@
       "Title": "Clean Water for All",
       "Category": "Clothing",
       "Category_bg": "#3498db",
-      "Card_bg": "#ffffff",
+      "Card_bg": "rgba(248, 113, 71, 0.15)",
       "Text_bg": "#79C23F",
       "Button_bg": "#e74c3c",
       "Description": "Provide clean and safe drinking water to communities in need around the world.",
