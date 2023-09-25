@@ -1,17 +1,20 @@
-import React from 'react';
+//  import React from 'react';
 // import { useState } from 'react';
 import { PieChart, Pie, Cell } from 'recharts';
-
+let donation = 0;
 const Statistics = () => {
     //  const [donation, setDonation] = useState(0)
      const totalDonations = JSON.parse(localStorage.getItem("donations"));
     // // console.log(totalDonations.length);
-    //  if(totalDonations){
-    //     setDonation(totalDonations.length)
-    //  }
-     const donation = totalDonations.length == null? 0 :totalDonations.length ;
-    //const totalDonation = 12 - donation;
-    console.log(donation);
+      if(totalDonations){
+        donation=totalDonations.length;
+        console.log("shapla");
+      }else{
+        donation = 0;
+      }
+    //  const donation = totalDonations.length == null? 0 :totalDonations.length ;
+    // //const totalDonation = 12 - donation;
+    // console.log(donation);
     const data = [
         { name: 'Group A', value: 12 },
         { name: 'Group B', value: donation},
@@ -21,7 +24,7 @@ const Statistics = () => {
 const COLORS = ['#FF444A', '#00C49F'];
 
 const RADIAN = Math.PI / 180;
-const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent,index}) => {
+const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent}) => {
   const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
   const x = cx + radius * Math.cos(-midAngle * RADIAN);
   const y = cy + radius * Math.sin(-midAngle * RADIAN);
@@ -64,7 +67,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
                
            </div>
 
-           <p>hfvdhfdjkvn gfd</p>
+           
         </div>
     );
 };
