@@ -33,7 +33,7 @@ const Donations = () => {
               {noFound? (
               <p> {noFound}</p>):(
              <div>
-            <div className=" grid grid-cols-2 gap-6 ">
+            <div className=" grid grid-cols-1 lg:grid-cols-2 gap-6 ">
                 {
                   donations.length <= 4?
                   donations.map(donation =><Donation key={donation.id} donation={donation}></Donation> )  

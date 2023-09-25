@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 const Donation = ({donation}) => {
     const {Picture, Title, Category, Category_bg, Card_bg, Text_color ,Price } = donation || {};
     return (
-    <div className="relative flex  flex-row  bg-white  text-gray-700 rounded-lg ">
-  <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
+    <div className="relative  md:flex flex-row   bg-white  text-gray-700 rounded-lg ">
+  <div className="relative m-0 md:w-2/5 shrink-0 overflow-hidden md:rounded-s-xl rounded-r-none bg-white bg-clip-border text-gray-700">
     <img
       src={Picture}
 

@@ -50,14 +50,16 @@ const DonationDetails = () => {
     },[id, donations]);
    
     return (
-        <div className="w-10/12 m-auto">
+        <div className="w-10/12 m-auto ">
+            <div className="relative">
             <img className="  w-full h-[80vh]" src={Picture} alt="" />
-            <div onClick={handleAddToDonation} className="">
-            <button style={{ backgroundColor: Text_color }} className=" py-4 px-6 rounded-lg font-semibold text-xl text-white">
+            <div style={{backgroundColor:"rgba(11, 11, 11, 0.50)"}} className="  absolute w-full  bottom-0   p-10">
+            <button  onClick={handleAddToDonation} style={{ backgroundColor: Text_color }} className=" py-4 px-6 rounded-lg font-semibold text-xl text-white">
               Donate ${Price}
               </button>
             </div>
-            <h2 className="font-bold text-4xl text-black">{Title}</h2>
+            </div>
+            <h2 className="font-bold text-4xl text-black mt-14">{Title}</h2>
             <p className="font-normal text-base text-gray-500 mt-6 mb-28">{Description}</p>
         </div>
     );
