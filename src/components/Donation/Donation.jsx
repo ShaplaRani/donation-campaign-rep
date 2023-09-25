@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types';
 const Donation = ({donation}) => {
-    const {Picture, Title, Category, Category_bg, Card_bg, Text_bg ,Price } = donation || {};
+    const {Picture, Title, Category, Category_bg, Card_bg, Text_color ,Price } = donation || {};
     return (
     <div className="relative flex  flex-row  bg-white  text-gray-700 rounded-lg ">
   <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
@@ -12,18 +12,22 @@ const Donation = ({donation}) => {
       className="h-full w-full object-cover"
     />
   </div>
-  <div className="p-6  bg-red-300  rounded-e-lg flex-1 space-y-4" >
+  <div style={{  backgroundColor:Card_bg}} className="p-6 rounded-e-lg flex-1 space-y-4" >
    
         <p className='font-medium text-sm'>
-        <span className='py-2 px-3  rounded-lg' style={{ backgroundColor: Category_bg, color: Text_bg }}>{Category}</span>
+        <span className='py-2 px-3  rounded-lg' style={{ backgroundColor: Category_bg, color: Text_color }}>{Category}</span>
         </p>
    
-       <p className='font-semibold text-xl ' style={{ color:Text_bg  }}>{Title}</p>
+       <p className='font-semibold text-xl ' >{Title}</p>
+       <div>
+            <p style={{ color:Text_color}}>${Price}</p>
+       </div>
+       <button style={{ backgroundColor: Text_color }} className=" py-4 px-6 rounded-lg font-semibold text-lg text-white">
+       View Details
+        </button>
+     
    
-      
-      <p>${Price}</p>
-   
-     <button className='font-semibold text-lg text-white'>View Details</button>
+     
   </div>
       </div>
 

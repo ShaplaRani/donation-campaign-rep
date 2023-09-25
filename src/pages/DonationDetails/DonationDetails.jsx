@@ -5,7 +5,7 @@ import swal from 'sweetalert';
 
 const DonationDetails = () => {
     const [donation, setDonation] =useState({});
-    const {Picture,Price,Title,Description} =donation || {};
+    const {Picture,Price,Title,Description, Text_color} =donation || {};
      const {donationId} =useParams();
      const id = parseInt(donationId);
      const donations = useLoaderData();
@@ -53,7 +53,9 @@ const DonationDetails = () => {
         <div className="w-10/12 m-auto">
             <img className="  w-full h-[80vh]" src={Picture} alt="" />
             <div onClick={handleAddToDonation} className="">
-            <button className="bg-red-600  py-4 px-6 rounded-lg font-semibold text-xl text-white">Donate ${Price}</button>
+            <button style={{ backgroundColor: Text_color }} className=" py-4 px-6 rounded-lg font-semibold text-xl text-white">
+              Donate ${Price}
+              </button>
             </div>
             <h2 className="font-bold text-4xl text-black">{Title}</h2>
             <p className="font-normal text-base text-gray-500 mt-6 mb-28">{Description}</p>

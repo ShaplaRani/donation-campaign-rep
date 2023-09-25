@@ -11,7 +11,7 @@ const Donations = () => {
     },[])
     console.log(donations);
     return (
-        <div className="grid grid-cols-4 w-10/12 m-auto mt-28 gap-6">
+        <div className="grid grid-cols-4 w-10/12 m-auto mt-28 gap-6 mb-44">
            {
             donations.map(donation => <DonationCard key={donation.id} donation ={donation}></DonationCard>)
            }

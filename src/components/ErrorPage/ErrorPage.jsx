@@ -3,7 +3,9 @@
 const ErrorPage = () => {
     return (
         <div>
-            <h2>Oops!!!</h2>
+           <div className='h-screen flex justify-center items-center'>
+            error
+        </div>
         </div>
     );
 };
