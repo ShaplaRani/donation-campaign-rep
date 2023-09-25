@@ -5,6 +5,7 @@ import Donation from "../../components/Donation/Donation";
 const Donations = () => {
     const [donations, setDonations] = useState([]);
   const [noFound, setNoFound] = useState(false);
+  const [dataLength,setDataLength] = useState(4)
 
   useEffect(() => {
     const totalDonation = JSON.parse(localStorage.getItem("donations"));
@@ -26,13 +27,28 @@ const Donations = () => {
 
   console.log(donations);
     return (
-        <div>
+        <div className="w-10/12 m-auto">
             <h2>Donation: {donations.length}</h2>
-            <div>
+             <div>
+              {noFound? (
+              <p> {noFound}</p>):(
+             <div>
+            <div className=" grid grid-cols-2 gap-6 ">
                 {
+                  donations.length <= 4?
                   donations.map(donation =><Donation key={donation.id} donation={donation}></Donation> )  
+                  :donations.slice(0,dataLength).map(donation =><Donation key={donation.id} donation={donation}></Donation> )
                 }
             </div>
+            <div className={` flex justify-center mt-10 ${ donations.length === dataLength || donations.length <= 4 ? "hidden":""}`}>
+                <button onClick={() => setDataLength(donations.length)}
+                 className=" bg-green-700 text-white py-4 px-7 rounded-lg font-semibold text-base">
+                     See All 
+                </button>
+            </div>
+            </div>)
+          }
+        </div>
         </div>
     );
 };

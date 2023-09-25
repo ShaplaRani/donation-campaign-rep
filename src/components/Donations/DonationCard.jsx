@@ -6,7 +6,7 @@ const DonationCard = ({ donation }) => {
     return (
        <Link to= {`/donations/${id}`}>
         <div>
-            <div className="rounded-lg h-full flex flex-col border border-red-400">
+            <div className="rounded-lg   flex flex-col border border-red-400">
                 <div className="">
                     <img className='w-full' src={Picture} alt="" />
                         
