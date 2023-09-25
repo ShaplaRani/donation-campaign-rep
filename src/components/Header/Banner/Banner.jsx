@@ -18,7 +18,7 @@ const Banner = () => {
        setFilterDonation(searchDonation);
     //    setIsShow(true)
        
-       e.target.name.value ='';
+      //  e.target.name.value ='';
     }
     //  console.log(displayDonation);
     return (

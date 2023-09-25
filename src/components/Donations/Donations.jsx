@@ -16,7 +16,7 @@ const Donations = () => {
             setDisplayDonation(data)
             
         })
-    },[])
+    },[filterDonation])
    
     if(filterDonation){
          if(filterDonation === "Food"){
