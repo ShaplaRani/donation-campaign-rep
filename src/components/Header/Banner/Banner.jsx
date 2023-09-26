@@ -1,21 +1,21 @@
 
-import { useContext } from "react";
-import { DonationContext } from "../../../pages/Home/Home";
+// import { useContext } from "react";
+// import { DonationContext } from "../../../pages/Home/Home";
 
 
 
 
 
 const Banner = () => {
-    const [ filterDonation, setFilterDonation] = useContext(DonationContext)
-    console.log(typeof setFilterDonation)
+    // const [ filterDonation, setFilterDonation] = useContext(DonationContext)
+    // console.log(typeof setFilterDonation)
      
     // const [displayDonation, setDisplayDonation] =useState('');
     // const [isShow , setIsShow] = useState(false)
     const handleSubmit = e => {
         e.preventDefault();
-       const  searchDonation = e.target.name.value;
-       setFilterDonation(searchDonation);
+      //  const  searchDonation = e.target.name.value;
+      //  setFilterDonation(searchDonation);
        
     //    setIsShow(true)
        
