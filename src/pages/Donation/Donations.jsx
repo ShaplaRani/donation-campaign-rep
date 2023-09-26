@@ -27,7 +27,7 @@ const Donations = () => {
 
   console.log(donations);
     return (
-        <div className="w-10/12 m-auto">
+        <div className="w-10/12 m-auto mb-20">
             <h2>Donation: {donations.length}</h2>
              <div>
               {noFound? (

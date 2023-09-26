@@ -1,7 +1,7 @@
 
 import { useContext } from "react";
 import { DonationContext } from "../../../pages/Home/Home";
-import { Link } from "react-router-dom";
+
 
 
 
@@ -9,13 +9,14 @@ import { Link } from "react-router-dom";
 const Banner = () => {
     const [ filterDonation, setFilterDonation] = useContext(DonationContext)
     console.log(typeof setFilterDonation)
-     //console.log(filterDonation );
+     
     // const [displayDonation, setDisplayDonation] =useState('');
     // const [isShow , setIsShow] = useState(false)
     const handleSubmit = e => {
         e.preventDefault();
        const  searchDonation = e.target.name.value;
        setFilterDonation(searchDonation);
+       
     //    setIsShow(true)
        
       //  e.target.name.value ='';
