@@ -14,8 +14,6 @@ const DonationDetails = () => {
         const addedDonationArray = [];
     
         const storedDonation = JSON.parse(localStorage.getItem("donations"));
-    
-        //jokhon kisu nai tokhon e if vitor dhukba
         if (!storedDonation) {
             addedDonationArray.push(donation);
           localStorage.setItem("donations", JSON.stringify(addedDonationArray));
@@ -23,12 +21,8 @@ const DonationDetails = () => {
         } 
         
         else {
-    
-    
-          const isExits = storedDonation.find((donation) => donation.id === id);
-    
-          
-          if (!isExits) {
+           const isExits = storedDonation.find((donation) => donation.id === id);
+        if (!isExits) {
     
             addedDonationArray.push(...storedDonation, donation);
             localStorage.setItem("donations", JSON.stringify(addedDonationArray));
@@ -37,11 +31,7 @@ const DonationDetails = () => {
           } else {
             swal("Error!", "No duplicate !", "error");
           }
-    
-        
-    
-    
-        }
+    }
     }  
     
      useEffect(() => {
@@ -50,10 +40,11 @@ const DonationDetails = () => {
     },[id, donations]);
    
     return (
-        <div className="w-10/12 m-auto ">
+        <div className="w-10/12 m-auto mt-9 ">
             <div className="relative">
             <img className="  w-full h-[80vh]" src={Picture} alt="" />
-            <div style={{backgroundColor:"rgba(11, 11, 11, 0.50)"}} className="  absolute w-full  bottom-0   p-10">
+            <div style={{backgroundColor:"rgba(11, 11, 11, 0.50)"}} className="  absolute w-full 
+             bottom-0 left-0  p-10">
             <button  onClick={handleAddToDonation} style={{ backgroundColor: Text_color }} className=" py-4 px-6 rounded-lg font-semibold text-xl text-white">
               Donate ${Price}
               </button>
