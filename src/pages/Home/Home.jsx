@@ -50,8 +50,8 @@ const Home = () => {
     return (
         <div>
 
-        <div className="hero h-[80vh]" 
-        style={{backgroundImage: 'url(/src/assets/banner-img.jpg)'}}>
+        <div className="hero h-[80vh] pt-[-150px]" 
+        style={{backgroundImage: 'url(/images/banner-img.jpg)'}}>
         <div className="hero-overlay bg-white bg-opacity-95"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="">
