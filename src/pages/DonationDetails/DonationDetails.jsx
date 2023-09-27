@@ -17,7 +17,7 @@ const DonationDetails = () => {
         if (!storedDonation) {
             addedDonationArray.push(donation);
           localStorage.setItem("donations", JSON.stringify(addedDonationArray));
-          swal("Good job!", "Donation added successfully!", "success");
+          swal("Thank You!", "Donation added successfully!", "success");
         } 
         
         else {
@@ -26,7 +26,7 @@ const DonationDetails = () => {
     
             addedDonationArray.push(...storedDonation, donation);
             localStorage.setItem("donations", JSON.stringify(addedDonationArray));
-            swal("Good job!", "Donation added successfully!", "success");
+            swal("Thank You!", "Donation added successfully!", "success");
            
           } else {
             swal("Error!", "No duplicate !", "error");
