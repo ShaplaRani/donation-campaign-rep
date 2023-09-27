@@ -50,7 +50,7 @@ const DonationDetails = () => {
               </button>
             </div>
             </div>
-            <h2 className="font-bold text-4xl text-black mt-14">{Title}</h2>
+            <h2 className="font-bold text-2xl md:text-4xl text-black mt-14">{Title}</h2>
             <p className="font-normal text-base text-gray-500 mt-6 mb-28">{Description}</p>
         </div>
     );

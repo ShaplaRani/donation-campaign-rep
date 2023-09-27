@@ -35,7 +35,7 @@ const Statistics = () => {
       
         return (
           <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
-            {`${(percent * 100).toFixed(2)}%`}
+            {`${(percent * 100).toFixed(1)}%`}
           </text>
         );
       };

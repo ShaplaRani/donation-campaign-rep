@@ -9,7 +9,7 @@
       "Text_color": "#79C23F",
       "Button_bg": "#e74c3c",
       "Description": "Help provide clean and safe drinking water to communities in need around the world. Your donation will make a significant impact on improving lives.",
-      "Price": 290.00
+      "Price": 290
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "Text_color": "#FF444A",
       "Button_bg": "#2ecc71",
       "Description": "Support underprivileged children's education with your contribution. Ensure access to quality schooling and a brighter future.",
-      "Price": 290.00
+      "Price": 200
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
       "Button_bg": "#f39c12",
       "Description": "Join our mission to eliminate hunger and food insecurity. Your donation helps provide nutritious meals and hope to those in need.",
 
-      "Price": 290.00
+      "Price": 250
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
       "Text_color": "#0052FF",
       "Button_bg": "#e67e22",
       "Description": "Contribute to medical aid for vulnerable communities. Your support provides healthcare services and supplies, saving lives.",
-      "Price": 290.00
+      "Price": 290
     },
     {
       "id": 5,
@@ -58,7 +58,7 @@
       "Text_color": "#0052FF",
       "Button_bg": "#e67e22",
       "Description": "Promote health education and awareness in communities. Your donation fosters healthier lifestyles and well-being.",
-      "Price": 290.00
+      "Price": 390
     },
     {
       "id": 6,
@@ -70,7 +70,7 @@
       "Text_color": "#FF444A",
       "Button_bg": "#2ecc71",
       "Description":"Empower students with higher education scholarships. Your contribution supports dreams and academic achievement.",
-      "Price": 290.00
+      "Price": 280
     },
     {
       "id": 7,
@@ -82,7 +82,7 @@
       "Text_color": "#79C23F",
       "Button_bg": "#3498db",
      "Description": "Collect and distribute clothing to those in need. Your donation brings warmth and comfort to vulnerable individuals.",
-     "Price": 290.00
+     "Price": 220
     },
     {
       "id": 8,
@@ -94,7 +94,7 @@
       "Text_color": "#F87147",
       "Button_bg": "#f39c12",
       "Description": "Support nutrition programs for children. Your contribution ensures access to proper nutrition for a healthier future.",
-      "Price": 290.00
+      "Price": 290
     },
     {
       "id": 9,
@@ -106,7 +106,7 @@
       "Text_color": "#0052FF",
       "Button_bg": "#e67e22",
       "Description": "Promote mental health awareness and resources. Your donation helps individuals achieve mental well-being.",
-      "Price": 290.00
+      "Price": 310
     },
     {
       "id": 10,
@@ -118,7 +118,7 @@
       "Text_color": "#FF444A",
       "Button_bg": "#2ecc71",
       "Description": "Build schools in underserved areas. Your support ensures access to quality education for every child.",
-      "Price": 290.00
+      "Price": 200
     },
     {
       "id": 11,
@@ -130,7 +130,7 @@
       "Text_color": "#79C23F",
       "Button_bg": "#3498db",
       "Description": "Provide warm clothing during winter. Your donation protects vulnerable individuals from harsh weather conditions.",
-      "Price": 290.00
+      "Price": 290
     },
     {
       "id": 12,
@@ -142,7 +142,7 @@
       "Text_color": "#F87147",
       "Button_bg": "#f39c12",
       "Description": "Deliver emergency food supplies to disaster-affected areas. Your contribution provides immediate relief and support.",
-      "Price": 290.00
+      "Price": 490
     }
   ]
   
